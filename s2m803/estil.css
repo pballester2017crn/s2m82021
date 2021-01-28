@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	font-size: 16px;
+	line-height: 32px;
+}
+.fa{
+	font-size: 48px;
+	color: red;
+}
+#header{
+	height: 10vh;
+	background-color: #DDD;
+}
+#aside{
+	height: 15vh;
+	background-color: lavender;
+	overflow-x: scroll;
+	scrollbar-width: none;
+}
+#slider{
+	background-color: yellow;
+	height: 15vh;
+	width: 300vw;
+}
+.bola{
+	width: 10vh;
+	height: 10vh;
+	border-radius: 50%;
+	background-color: #FFF;
+	border: solid 1px #666;
+	margin: 0 5px;
+	display: inline-block;
+}
+#main{
+	height: 65vh;
+	background-color: pink;
+	overflow-y: auto;
+	scrollbar-width: none;
+}
+#main::-webkit-scrollbar, #aside::-webkit-scrollbar{
+	display: none;
+}
+
+#footer{
+	height: 10vh;
+	background-color: #DDD;
+}
